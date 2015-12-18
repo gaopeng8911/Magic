@@ -827,6 +827,7 @@ public class show_result extends Activity {
                     mBLEWaist.setCharacteristicNotification(gattCharacteristic, true);
                     gattCharacteristic.setValue("0");
                     mBLEWaist.writeCharacteristic(gattCharacteristic);
+
                 }
 
                 //-----Descriptors的字段信息-----//

@@ -148,18 +148,22 @@ public class show_result extends Activity {
 
 
         //发现BLE终端的Service时回调
-        mBLELefthand.setOnServiceDiscoverListener(mOnServiceDiscoverLefthand);
-        mBLELefthand.setOnDataAvailableListener(mOnDataAvailableLefthand);
-        mBLELefthand.connect(mDeviceAddressLefthand);
+        if (!mDeviceAddressLefthand.contains("no device")) {
+            mBLELefthand.setOnServiceDiscoverListener(mOnServiceDiscoverLefthand);
+            mBLELefthand.setOnDataAvailableListener(mOnDataAvailableLefthand);
+            mBLELefthand.connect(mDeviceAddressLefthand);
+        }
 
-        mBLERighthand.setOnServiceDiscoverListener(mOnServiceDiscoverRighthand);
-        mBLERighthand.setOnDataAvailableListener(mOnDataAvailableRighthand);
-        mBLERighthand.connect(mDeviceAddressRighthand);
-
-        mBLEWaist.setOnServiceDiscoverListener(mOnServiceDiscoverWaist);
-        mBLEWaist.setOnDataAvailableListener(mOnDataAvailableWaist);
-        mBLEWaist.connect(mDeviceAddressWaist);
-
+        if (!mDeviceAddressRighthand.contains("no device")) {
+            mBLERighthand.setOnServiceDiscoverListener(mOnServiceDiscoverRighthand);
+            mBLERighthand.setOnDataAvailableListener(mOnDataAvailableRighthand);
+            mBLERighthand.connect(mDeviceAddressRighthand);
+        }
+        if (!mDeviceAddressWaist.contains("no device")) {
+            mBLEWaist.setOnServiceDiscoverListener(mOnServiceDiscoverWaist);
+            mBLEWaist.setOnDataAvailableListener(mOnDataAvailableWaist);
+            mBLEWaist.connect(mDeviceAddressWaist);
+        }
 
         String ready_uri = "android.resource://" + getPackageName() + "/" + R.raw.ready;
         final String rightHookUri = "android.resource://" + getPackageName() + "/" + R.raw.right_hook;
@@ -211,7 +215,7 @@ public class show_result extends Activity {
                     vvResult.setVideoPath(forwardUri);
                     vvResult.start();
                     tvActionLefthand.setText("上一动作为：向前移动");
-                }else if (action == "backwards") {
+                } else if (action == "backwards") {
                     vvResult.setVideoPath(backwardsUri);
                     vvResult.start();
                     tvActionLefthand.setText("上一动作为：向后移动");

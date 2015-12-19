@@ -247,7 +247,13 @@ public class MainActivity extends Activity {
             return true;
         } else if (waistDeviceAddress == noDevice && lefthandDeviceAddress == righthandDeviceAddress) {
             return true;
-        } else if (lefthandDeviceAddress == righthandDeviceAddress || lefthandDeviceAddress == waistDeviceAddress || righthandDeviceAddress == waistDeviceAddress) {
+        } else if (lefthandDeviceAddress == righthandDeviceAddress&&righthandDeviceAddress == noDevice) {
+            return false;
+        } else if (lefthandDeviceAddress == waistDeviceAddress&&waistDeviceAddress == noDevice) {
+            return false;
+        }else if (righthandDeviceAddress == waistDeviceAddress&&waistDeviceAddress == noDevice) {
+            return false;
+        }else if (lefthandDeviceAddress == righthandDeviceAddress || lefthandDeviceAddress == waistDeviceAddress || righthandDeviceAddress == waistDeviceAddress) {
             return true;
         } else {
             return false;

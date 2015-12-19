@@ -549,15 +549,16 @@ public class show_result extends Activity {
 
                                         if ((pitchMax - pitchMin) == maxResult) {
                                             Log.e(TAG, gatt.getDevice().getName() + ":" + maxResult + "----------------------------右手右勾拳----------------------------------");
-                                            action = "right_hook";
+//                                            action = "right_hook";
                                         } else if ((roolMax - roolMin) == maxResult) {
                                             Log.e(TAG, gatt.getDevice().getName() + ":" + maxResult + "----------------------------右手直拳----------------------------------");
-                                            action = "right_straight";
+//                                            action = "right_straight";
                                         } else if ((yawMax - yawMin) == maxResult) {
                                             Log.e(TAG, gatt.getDevice().getName() + ":" + maxResult + "----------------------------右手摆拳----------------------------------");
-                                            action = "right_swing";
+//                                            action = "right_swing";
                                         }
-
+                                        Log.e(TAG, gatt.getDevice().getName() + ":" + maxResult + "----------------------------右手右勾拳----------------------------------");
+                                        action = "right_hook";
 
                                     } else {
                                         action = "ready";

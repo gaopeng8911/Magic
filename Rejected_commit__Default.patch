@@ -1,0 +1,2757 @@
+Index: app/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml	(revision )
++++ app/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml	(revision )
+@@ -0,0 +1,71 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++        android:orientation="vertical"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_margin="10dp">
++    <LinearLayout android:orientation="horizontal"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:layout_margin="10dp">
++        <TextView android:layout_width="wrap_content"
++                  android:layout_height="wrap_content"
++                  android:text="@string/label_device_address"
++                  android:textSize="18sp"/>
++        <Space android:layout_width="5dp"
++               android:layout_height="wrap_content"/>
++        <TextView android:id="@+id/device_address"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:textSize="18sp"/>
++    </LinearLayout>
++    <LinearLayout android:orientation="horizontal"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:layout_margin="10dp">
++        <TextView android:layout_width="wrap_content"
++                  android:layout_height="wrap_content"
++                  android:text="@string/label_state"
++                  android:textSize="18sp"/>
++        <Space android:layout_width="5dp"
++               android:layout_height="wrap_content"/>
++        <TextView android:id="@+id/connection_state"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:text="@string/disconnected"
++                  android:textSize="18sp"/>
++    </LinearLayout>
++    <LinearLayout android:orientation="horizontal"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:layout_margin="10dp">
++        <TextView android:layout_width="wrap_content"
++                  android:layout_height="wrap_content"
++                  android:text="@string/label_data"
++                  android:textSize="18sp"/>
++        <Space android:layout_width="5dp"
++               android:layout_height="wrap_content"/>
++        <TextView android:id="@+id/data_value"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:text="@string/no_data"
++                  android:textSize="18sp"/>
++    </LinearLayout>
++    <ExpandableListView android:id="@+id/gatt_services_list"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"/>
++</LinearLayout>
+\ No newline at end of file
+Index: app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json	(revision )
++++ app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json	(revision )
+@@ -0,0 +1,22 @@
++[
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aa.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-hdpi\\aa.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hook_right.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-hdpi\\hook_right.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\straight_left.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-hdpi\\straight_left.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\initial_state.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-hdpi\\initial_state.gif"
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/blame/res/debug/single/menu.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/single/menu.json	(revision )
++++ app/build/intermediates/blame/res/debug/single/menu.json	(revision )
+@@ -0,0 +1,10 @@
++[
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\menu\\gatt_services.xml"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\menu\\main.xml"
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/res/merged/debug/layout/listitem_device.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/layout/listitem_device.xml	(revision )
++++ app/build/intermediates/res/merged/debug/layout/listitem_device.xml	(revision )
+@@ -0,0 +1,36 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++              android:orientation="vertical"
++              android:layout_width="match_parent"
++              android:layout_height="wrap_content">
++    <TextView android:id="@+id/device_name"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:textSize="24dp"/>
++    <TextView android:id="@+id/device_address"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:textSize="12dp"/>
++
++    <!--<TextView-->
++        <!--android:layout_width="match_parent"-->
++        <!--android:layout_height="331dp"-->
++        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
++        <!--android:text="Large Text"-->
++        <!--android:id="@+id/result" />-->
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json	(revision )
++++ app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json	(revision )
+@@ -0,0 +1,22 @@
++[
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\initial_state.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-mdpi\\initial_state.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\aa.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-mdpi\\aa.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\straight_left.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-mdpi\\straight_left.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\hook_right.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-mdpi\\hook_right.gif"
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml	(revision )
++++ app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml	(revision )
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <dimen name="activity_horizontal_margin">64dp</dimen>
++</resources>
+\ No newline at end of file
+Index: app/build/intermediates/res/merged/debug/menu/main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/menu/main.xml	(revision )
++++ app/build/intermediates/res/merged/debug/menu/main.xml	(revision )
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<menu xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:id="@+id/menu_refresh"
++          android:checkable="false"
++          android:orderInCategory="1"
++          android:showAsAction="ifRoom"/>
++    <item android:id="@+id/menu_scan"
++          android:title="@string/menu_scan"
++          android:orderInCategory="100"
++          android:showAsAction="ifRoom|withText"/>
++    <item android:id="@+id/menu_stop"
++          android:title="@string/menu_stop"
++          android:orderInCategory="101"
++          android:showAsAction="ifRoom|withText"/>
++</menu>
+Index: app/build/intermediates/res/merged/debug/layout/actionbar_indeterminate_progress.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/layout/actionbar_indeterminate_progress.xml	(revision )
++++ app/build/intermediates/res/merged/debug/layout/actionbar_indeterminate_progress.xml	(revision )
+@@ -0,0 +1,31 @@
++<!--
++  Copyright 2013 Google Inc.
++
++  Licensed under the Apache License, Version 2.0 (the "License");
++  you may not use this file except in compliance with the License.
++  You may obtain a copy of the License at
++
++       http://www.apache.org/licenses/LICENSE-2.0
++
++  Unless required by applicable law or agreed to in writing, software
++  distributed under the License is distributed on an "AS IS" BASIS,
++  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++  See the License for the specific language governing permissions and
++  limitations under the License.
++  -->
++<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
++             android:layout_height="wrap_content"
++             android:layout_width="56dp"
++             android:minWidth="56dp">
++    <ProgressBar android:layout_width="32dp"
++                 android:layout_height="32dp"
++                 android:layout_gravity="center"/>
++
++    <TextView
++        android:layout_width="56dp"
++        android:layout_height="234dp"
++        android:textAppearance="?android:attr/textAppearanceMedium"
++        android:text="1 Text"
++        android:id="@+id/textView"
++        android:layout_gravity="right|bottom" />
++</FrameLayout>
+Index: app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json	(revision )
++++ app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json	(revision )
+@@ -0,0 +1,26 @@
++[
++    {
++        "outputFile": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
++        "map": [
++            {
++                "to": {
++                    "startLine": 2,
++                    "startColumn": 4,
++                    "startOffset": 55,
++                    "endColumn": 57,
++                    "endOffset": 108
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
++                    "position": {
++                        "startLine": 4,
++                        "startColumn": 4,
++                        "startOffset": 295,
++                        "endColumn": 57,
++                        "endOffset": 348
++                    }
++                }
++            }
++        ]
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/res/merged/debug/values/values.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/values/values.xml	(revision )
++++ app/build/intermediates/res/merged/debug/values/values.xml	(revision )
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <dimen name="activity_horizontal_margin">16dp</dimen>
++    <dimen name="activity_vertical_margin">16dp</dimen>
++    <string name="app_name">BLE Sample</string>
++    <string name="ble_not_supported">BLE is not supported</string>
++    <string name="connected">Connected</string>
++    <string name="disconnected">Disconnected</string>
++    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
++    <string name="label_data">Data:</string>
++    <string name="label_device_address">Device address:</string>
++    <string name="label_state">State:</string>
++    <string name="menu_connect">Connect</string>
++    <string name="menu_disconnect">Disconnect</string>
++    <string name="menu_scan">Scan</string>
++    <string name="menu_stop">Stop</string>
++    <string name="no_data">No data</string>
++    <string name="title_devices">BLE Device Scan</string>
++    <string name="unknown_characteristic">Unknown characteristic</string>
++    <string name="unknown_device">Unknown device</string>
++    <string name="unknown_service">Unknown service</string>
++</resources>
+\ No newline at end of file
+Index: app/build/outputs/logs/manifest-merger-debug-report.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/outputs/logs/manifest-merger-debug-report.txt	(revision )
++++ app/build/outputs/logs/manifest-merger-debug-report.txt	(revision )
+@@ -0,0 +1,81 @@
++-- Merging decision tree log ---
++manifest
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:16:1-57:12
++	package
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:17:5-39
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++	android:versionName
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:19:5-30
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++	android:versionCode
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:18:5-28
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++	xmlns:android
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:16:11-69
++uses-sdk
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:21:5-23:41
++	android:targetSdkVersion
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:23:9-38
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++	android:minSdkVersion
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:22:9-35
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml
++uses-feature#android.hardware.bluetooth_le
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:30:5-32:35
++	android:required
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:32:9-32
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:31:9-53
++uses-permission#android.permission.BLUETOOTH
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:34:5-68
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:34:22-65
++uses-permission#android.permission.BLUETOOTH_ADMIN
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:35:5-74
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:35:22-71
++android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:37:5-89
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:37:30-86
++android:uses-permission#android.permission.READ_PHONE_STATE
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:38:5-83
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:38:30-80
++android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:39:5-88
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:39:30-85
++application
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:41:5-55:19
++	android:label
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:43:9-41
++	android:icon
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:42:9-47
++	android:theme
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:44:9-56
++activity#com.example.bluetooth.le.DeviceScanActivity
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:45:9-53:20
++	android:label
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:47:13-45
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:46:13-47
++intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:48:13-52:29
++action#android.intent.action.MAIN
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:49:17-69
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:49:25-66
++category#android.intent.category.LAUNCHER
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:51:17-77
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:51:27-74
++activity#com.example.bluetooth.le.show_result
++ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:54:9-58
++	android:name
++		ADDED from C:\Users\P_Gao\AndroidStudioProjects\Tracert\BluetoothLeGatt2\app\src\main\AndroidManifest.xml:54:19-46
+Index: app/build/intermediates/blame/res/debug/multi/values.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/multi/values.json	(revision )
++++ app/build/intermediates/blame/res/debug/multi/values.json	(revision )
+@@ -0,0 +1,368 @@
++[
++    {
++        "outputFile": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
++        "map": [
++            {
++                "to": {
++                    "startLine": 2,
++                    "startColumn": 4,
++                    "startOffset": 55,
++                    "endColumn": 57,
++                    "endOffset": 108
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\dimens.xml",
++                    "position": {
++                        "startLine": 2,
++                        "startColumn": 4,
++                        "startOffset": 90,
++                        "endColumn": 57,
++                        "endOffset": 143
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 3,
++                    "startColumn": 4,
++                    "startOffset": 113,
++                    "endColumn": 55,
++                    "endOffset": 164
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\dimens.xml",
++                    "position": {
++                        "startLine": 3,
++                        "startColumn": 4,
++                        "startOffset": 149,
++                        "endColumn": 55,
++                        "endOffset": 200
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 4,
++                    "startColumn": 4,
++                    "startOffset": 169,
++                    "endColumn": 47,
++                    "endOffset": 212
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 15,
++                        "startColumn": 4,
++                        "startOffset": 685,
++                        "endColumn": 47,
++                        "endOffset": 728
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 5,
++                    "startColumn": 4,
++                    "startOffset": 217,
++                    "endColumn": 66,
++                    "endOffset": 279
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 16,
++                        "startColumn": 4,
++                        "startOffset": 733,
++                        "endColumn": 66,
++                        "endOffset": 795
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 6,
++                    "startColumn": 4,
++                    "startOffset": 284,
++                    "endColumn": 47,
++                    "endOffset": 327
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 21,
++                        "startColumn": 4,
++                        "startOffset": 1001,
++                        "endColumn": 47,
++                        "endOffset": 1044
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 7,
++                    "startColumn": 4,
++                    "startOffset": 332,
++                    "endColumn": 53,
++                    "endOffset": 381
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 22,
++                        "startColumn": 4,
++                        "startOffset": 1049,
++                        "endColumn": 53,
++                        "endOffset": 1098
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 8,
++                    "startColumn": 4,
++                    "startOffset": 386,
++                    "endColumn": 82,
++                    "endOffset": 464
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 24,
++                        "startColumn": 4,
++                        "startOffset": 1161,
++                        "endColumn": 82,
++                        "endOffset": 1239
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 9,
++                    "startColumn": 4,
++                    "startOffset": 469,
++                    "endColumn": 44,
++                    "endOffset": 509
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 17,
++                        "startColumn": 4,
++                        "startOffset": 800,
++                        "endColumn": 44,
++                        "endOffset": 840
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 10,
++                    "startColumn": 4,
++                    "startOffset": 514,
++                    "endColumn": 64,
++                    "endOffset": 574
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 18,
++                        "startColumn": 4,
++                        "startOffset": 845,
++                        "endColumn": 64,
++                        "endOffset": 905
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 11,
++                    "startColumn": 4,
++                    "startOffset": 579,
++                    "endColumn": 46,
++                    "endOffset": 621
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 19,
++                        "startColumn": 4,
++                        "startOffset": 910,
++                        "endColumn": 46,
++                        "endOffset": 952
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 12,
++                    "startColumn": 4,
++                    "startOffset": 626,
++                    "endColumn": 48,
++                    "endOffset": 670
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 31,
++                        "startColumn": 4,
++                        "startOffset": 1462,
++                        "endColumn": 48,
++                        "endOffset": 1506
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 13,
++                    "startColumn": 4,
++                    "startOffset": 675,
++                    "endColumn": 54,
++                    "endOffset": 725
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 32,
++                        "startColumn": 4,
++                        "startOffset": 1511,
++                        "endColumn": 54,
++                        "endOffset": 1561
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 14,
++                    "startColumn": 4,
++                    "startOffset": 730,
++                    "endColumn": 42,
++                    "endOffset": 768
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 33,
++                        "startColumn": 4,
++                        "startOffset": 1566,
++                        "endColumn": 42,
++                        "endOffset": 1604
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 15,
++                    "startColumn": 4,
++                    "startOffset": 773,
++                    "endColumn": 42,
++                    "endOffset": 811
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 34,
++                        "startColumn": 4,
++                        "startOffset": 1609,
++                        "endColumn": 42,
++                        "endOffset": 1647
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 16,
++                    "startColumn": 4,
++                    "startOffset": 816,
++                    "endColumn": 43,
++                    "endOffset": 855
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 20,
++                        "startColumn": 4,
++                        "startOffset": 957,
++                        "endColumn": 43,
++                        "endOffset": 996
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 17,
++                    "startColumn": 4,
++                    "startOffset": 860,
++                    "endColumn": 57,
++                    "endOffset": 913
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 23,
++                        "startColumn": 4,
++                        "startOffset": 1103,
++                        "endColumn": 57,
++                        "endOffset": 1156
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 18,
++                    "startColumn": 4,
++                    "startOffset": 918,
++                    "endColumn": 73,
++                    "endOffset": 987
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 27,
++                        "startColumn": 4,
++                        "startOffset": 1303,
++                        "endColumn": 73,
++                        "endOffset": 1372
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 19,
++                    "startColumn": 4,
++                    "startOffset": 992,
++                    "endColumn": 57,
++                    "endOffset": 1045
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 26,
++                        "startColumn": 4,
++                        "startOffset": 1245,
++                        "endColumn": 57,
++                        "endOffset": 1298
++                    }
++                }
++            },
++            {
++                "to": {
++                    "startLine": 20,
++                    "startColumn": 4,
++                    "startOffset": 1050,
++                    "endColumn": 59,
++                    "endOffset": 1105
++                },
++                "from": {
++                    "file": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\values\\strings.xml",
++                    "position": {
++                        "startLine": 28,
++                        "startColumn": 4,
++                        "startOffset": 1377,
++                        "endColumn": 59,
++                        "endOffset": 1432
++                    }
++                }
++            }
++        ]
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json	(revision )
++++ app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json	(revision )
+@@ -0,0 +1,22 @@
++[
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\aa.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xxhdpi\\aa.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\initial_state.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xxhdpi\\initial_state.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\hook_right.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xxhdpi\\hook_right.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\straight_left.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xxhdpi\\straight_left.gif"
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/blame/res/debug/single/layout.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/single/layout.json	(revision )
++++ app/build/intermediates/blame/res/debug/single/layout.json	(revision )
+@@ -0,0 +1,18 @@
++[
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\layout\\listitem_device.xml"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gatt_services_characteristics.xml",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_result.xml",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\layout\\activity_show_result.xml"
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/res/merged/debug/layout/activity_show_result.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/layout/activity_show_result.xml	(revision )
++++ app/build/intermediates/res/merged/debug/layout/activity_show_result.xml	(revision )
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    tools:context="com.example.bluetooth.le.show_result">
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:textAppearance="?android:attr/textAppearanceLarge"
++        android:text="Large Text"
++        android:id="@+id/tv_result"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentStart="true"
++        android:layout_alignParentBottom="true"
++        android:layout_alignParentEnd="true" />
++    <VideoView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:id="@+id/vv_result"
++        
++        />
++</RelativeLayout>
+Index: app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/manifests/full/debug/AndroidManifest.xml	(revision )
++++ app/build/intermediates/manifests/full/debug/AndroidManifest.xml	(revision )
+@@ -0,0 +1,58 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!--
++Copyright (C) 2013 The Android Open Source Project
++
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++
++http://www.apache.org/licenses/LICENSE-2.0
++
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-->
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.example.bluetooth.le"
++    android:versionCode="1"
++    android:versionName="1.0" >
++
++    <uses-sdk
++        android:minSdkVersion="18"
++        android:targetSdkVersion="18" />
++    <!--
++    Declare this required feature if you want to make the app available to BLE-capable
++    devices only.  If you want to make your app available to devices that don't support BLE,
++    you should omit this in the manifest.  Instead, determine BLE capability by using
++    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
++    -->
++    <uses-feature
++        android:name="android.hardware.bluetooth_le"
++        android:required="true" />
++
++    <uses-permission android:name="android.permission.BLUETOOTH" />
++    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
++
++    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
++    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
++    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
++
++    <application
++        android:icon="@drawable/initial_state"
++        android:label="@string/app_name"
++        android:theme="@android:style/Theme.Holo.Light" >
++        <activity
++            android:name="com.example.bluetooth.le.DeviceScanActivity"
++            android:label="@string/app_name" >
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity android:name="com.example.bluetooth.le.show_result" />
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json	(revision )
++++ app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json	(revision )
+@@ -0,0 +1,22 @@
++[
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\aa.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xhdpi\\aa.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hook_right.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xhdpi\\hook_right.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\straight_left.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xhdpi\\straight_left.gif"
++    },
++    {
++        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\initial_state.gif",
++        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Tracert\\BluetoothLeGatt2\\app\\src\\main\\res\\drawable-xhdpi\\initial_state.gif"
++    }
++]
+\ No newline at end of file
+Index: app/build/intermediates/res/merged/debug/menu/gatt_services.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/res/merged/debug/menu/gatt_services.xml	(revision )
++++ app/build/intermediates/res/merged/debug/menu/gatt_services.xml	(revision )
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<menu xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:id="@+id/menu_refresh"
++          android:checkable="false"
++          android:orderInCategory="1"
++          android:showAsAction="ifRoom"/>
++    <item android:id="@+id/menu_connect"
++          android:title="@string/menu_connect"
++          android:orderInCategory="100"
++          android:showAsAction="ifRoom|withText"/>
++    <item android:id="@+id/menu_disconnect"
++          android:title="@string/menu_disconnect"
++          android:orderInCategory="101"
++          android:showAsAction="ifRoom|withText"/>
++</menu>
+Index: app/build/intermediates/symbols/debug/R.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/symbols/debug/R.txt	(revision )
++++ app/build/intermediates/symbols/debug/R.txt	(revision )
+@@ -0,0 +1,49 @@
++int attr freezesAnimation 0x7f010002
++int attr gifSource 0x7f010000
++int attr isOpaque 0x7f010001
++int dimen activity_horizontal_margin 0x7f040000
++int dimen activity_vertical_margin 0x7f040001
++int drawable hook_right 0x7f020000
++int drawable ic_launcher 0x7f020001
++int drawable initial_state 0x7f020002
++int drawable straight_left 0x7f020003
++int id connection_state 0x7f070003
++int id data_value 0x7f070004
++int id device_address 0x7f070002
++int id device_name 0x7f070006
++int id gatt_services_list 0x7f070005
++int id menu_connect 0x7f070008
++int id menu_disconnect 0x7f070009
++int id menu_refresh 0x7f070007
++int id menu_scan 0x7f07000a
++int id menu_stop 0x7f07000b
++int id textView 0x7f070000
++int id tv_result 0x7f070001
++int layout actionbar_indeterminate_progress 0x7f030000
++int layout activity_show_result 0x7f030001
++int layout gatt_services_characteristics 0x7f030002
++int layout listitem_device 0x7f030003
++int menu gatt_services 0x7f060000
++int menu main 0x7f060001
++int string app_name 0x7f050000
++int string ble_not_supported 0x7f050001
++int string connected 0x7f050002
++int string disconnected 0x7f050003
++int string error_bluetooth_not_supported 0x7f050004
++int string label_data 0x7f050005
++int string label_device_address 0x7f050006
++int string label_state 0x7f050007
++int string menu_connect 0x7f050008
++int string menu_disconnect 0x7f050009
++int string menu_scan 0x7f05000a
++int string menu_stop 0x7f05000b
++int string no_data 0x7f05000c
++int string title_devices 0x7f05000d
++int string unknown_characteristic 0x7f05000e
++int string unknown_device 0x7f05000f
++int string unknown_service 0x7f050010
++int[] styleable GifTextureView { 0x7f010000, 0x7f010001 }
++int styleable GifTextureView_gifSource 0
++int styleable GifTextureView_isOpaque 1
++int[] styleable GifView { 0x7f010002 }
++int styleable GifView_freezesAnimation 0
+Index: app/src/main/res/values/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/dimens.xml	(revision )
++++ app/src/main/res/values/dimens.xml	(revision )
+@@ -0,0 +1,5 @@
++<resources>
++    <!-- Default screen margins, per the Android Design guidelines. -->
++    <dimen name="activity_horizontal_margin">16dp</dimen>
++    <dimen name="activity_vertical_margin">16dp</dimen>
++</resources>
+Index: app/src/main/java/com/example/bluetooth/le/LeDeviceListAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/bluetooth/le/LeDeviceListAdapter.java	(revision )
++++ app/src/main/java/com/example/bluetooth/le/LeDeviceListAdapter.java	(revision )
+@@ -0,0 +1,98 @@
++package com.example.bluetooth.le;
++
++import android.app.Activity;
++import android.bluetooth.BluetoothDevice;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.BaseAdapter;
++import android.widget.TextView;
++
++import java.util.ArrayList;
++
++public class LeDeviceListAdapter extends BaseAdapter {
++
++	// Adapter for holding devices found through scanning.
++
++	private ArrayList<BluetoothDevice> mLeDevices;
++	private LayoutInflater mInflator;
++	private Activity mContext;
++
++	public LeDeviceListAdapter(Activity c) {
++		super();
++		mContext = c;
++		mLeDevices = new ArrayList<BluetoothDevice>();
++		mInflator = mContext.getLayoutInflater();
++	}
++
++	public void addDevice(BluetoothDevice device) {
++		if (!mLeDevices.contains(device)) {
++			mLeDevices.add(device);
++		}
++	}
++
++	public BluetoothDevice getDevice(int position) {
++		return mLeDevices.get(position);
++	}
++
++	public void clear() {
++		mLeDevices.clear();
++	}
++
++	//写入数据到textview
++	public void writeResult(String result){
++//		View v = mInflator.inflate(R.layout.listitem_device, null);
++//		TextView tv = (TextView) v
++//				.findViewById(R.id.result);
++//		String ss = tv.getText()+result;
++//		tv.setText(ss);
++
++	}
++
++	@Override
++	public int getCount() {
++		return mLeDevices.size();
++	}
++
++	@Override
++	public Object getItem(int i) {
++		return mLeDevices.get(i);
++	}
++
++	@Override
++	public long getItemId(int i) {
++		return i;
++	}
++
++	@Override
++	public View getView(int i, View view, ViewGroup viewGroup) {
++		ViewHolder viewHolder;
++		// General ListView optimization code.
++		if (view == null) {
++			view = mInflator.inflate(R.layout.listitem_device, null);
++			viewHolder = new ViewHolder();
++			viewHolder.deviceAddress = (TextView) view
++					.findViewById(R.id.device_address);
++			viewHolder.deviceName = (TextView) view
++					.findViewById(R.id.device_name);
++			view.setTag(viewHolder);
++		} else {
++			viewHolder = (ViewHolder) view.getTag();
++		}
++
++		BluetoothDevice device = mLeDevices.get(i);
++		final String deviceName = device.getName();
++		if (deviceName != null && deviceName.length() > 0)
++			viewHolder.deviceName.setText(deviceName);
++		else
++			viewHolder.deviceName.setText(R.string.unknown_device);
++		viewHolder.deviceAddress.setText(device.getAddress());
++
++		return view;
++	}
++
++	class ViewHolder {
++		TextView deviceName;
++		TextView deviceAddress;
++	}
++}
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision )
++++ app/src/main/AndroidManifest.xml	(revision )
+@@ -0,0 +1,57 @@
++<?xml version="1.0" encoding="utf-8"?><!--
++Copyright (C) 2013 The Android Open Source Project
++
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++
++http://www.apache.org/licenses/LICENSE-2.0
++
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-->
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.example.bluetooth.le"
++    android:versionCode="1"
++    android:versionName="1.0">
++
++    <uses-sdk
++        android:minSdkVersion="18"
++        android:targetSdkVersion="18" />
++    <!--
++    Declare this required feature if you want to make the app available to BLE-capable
++    devices only.  If you want to make your app available to devices that don't support BLE,
++    you should omit this in the manifest.  Instead, determine BLE capability by using
++    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
++    -->
++    <uses-feature
++        android:name="android.hardware.bluetooth_le"
++        android:required="true" />
++
++    <uses-permission android:name="android.permission.BLUETOOTH" />
++    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
++
++    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
++    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
++    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
++
++    <application
++        android:icon="@drawable/initial_state"
++        android:label="@string/app_name"
++        android:theme="@android:style/Theme.Holo.Light">
++        <activity
++            android:name=".DeviceScanActivity"
++            android:label="@string/app_name">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity android:name=".show_result"></activity>
++    </application>
++
++</manifest>
+Index: app/build/generated/source/r/debug/com/example/bluetooth/le/R.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/source/r/debug/com/example/bluetooth/le/R.java	(revision )
++++ app/build/generated/source/r/debug/com/example/bluetooth/le/R.java	(revision )
+@@ -0,0 +1,68 @@
++/* AUTO-GENERATED FILE.  DO NOT MODIFY.
++ *
++ * This class was automatically generated by the
++ * aapt tool from the resource data it found.  It
++ * should not be modified by hand.
++ */
++
++package com.example.bluetooth.le;
++
++public final class R {
++    public static final class attr {
++    }
++    public static final class dimen {
++        public static final int activity_horizontal_margin=0x7f040000;
++        public static final int activity_vertical_margin=0x7f040001;
++    }
++    public static final class drawable {
++        public static final int aa=0x7f020000;
++        public static final int hook_right=0x7f020001;
++        public static final int ic_launcher=0x7f020002;
++        public static final int initial_state=0x7f020003;
++        public static final int straight_left=0x7f020004;
++    }
++    public static final class id {
++        public static final int connection_state=0x7f070004;
++        public static final int data_value=0x7f070005;
++        public static final int device_address=0x7f070003;
++        public static final int device_name=0x7f070007;
++        public static final int gatt_services_list=0x7f070006;
++        public static final int menu_connect=0x7f070009;
++        public static final int menu_disconnect=0x7f07000a;
++        public static final int menu_refresh=0x7f070008;
++        public static final int menu_scan=0x7f07000b;
++        public static final int menu_stop=0x7f07000c;
++        public static final int textView=0x7f070000;
++        public static final int tv_result=0x7f070001;
++        public static final int vv_result=0x7f070002;
++    }
++    public static final class layout {
++        public static final int actionbar_indeterminate_progress=0x7f030000;
++        public static final int activity_show_result=0x7f030001;
++        public static final int gatt_services_characteristics=0x7f030002;
++        public static final int listitem_device=0x7f030003;
++    }
++    public static final class menu {
++        public static final int gatt_services=0x7f060000;
++        public static final int main=0x7f060001;
++    }
++    public static final class string {
++        public static final int app_name=0x7f050000;
++        public static final int ble_not_supported=0x7f050001;
++        public static final int connected=0x7f050002;
++        public static final int disconnected=0x7f050003;
++        public static final int error_bluetooth_not_supported=0x7f050004;
++        public static final int label_data=0x7f050005;
++        public static final int label_device_address=0x7f050006;
++        public static final int label_state=0x7f050007;
++        public static final int menu_connect=0x7f050008;
++        public static final int menu_disconnect=0x7f050009;
++        public static final int menu_scan=0x7f05000a;
++        public static final int menu_stop=0x7f05000b;
++        public static final int no_data=0x7f05000c;
++        public static final int title_devices=0x7f05000d;
++        public static final int unknown_characteristic=0x7f05000e;
++        public static final int unknown_device=0x7f05000f;
++        public static final int unknown_service=0x7f050010;
++    }
++}
+Index: app/src/main/java/com/example/bluetooth/le/CalculateData.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/bluetooth/le/CalculateData.java	(revision )
++++ app/src/main/java/com/example/bluetooth/le/CalculateData.java	(revision )
+@@ -0,0 +1,107 @@
++package com.example.bluetooth.le;
++
++import java.util.regex.Matcher;
++import java.util.regex.Pattern;
++
++/**
++ * Created by P_Gao on 2015/12/9.
++ */
++public class CalculateData {
++
++    //输入值顺序ax,ay,az,gx,gy,gz
++    public double[] CalculateAx(int iput[]) {
++        float samplingPeriod = 0.14f;//采样周期,140ms
++        float convergenceRate = samplingPeriod * 2;//比例增益支配率收敛到加速度计、磁强计
++        float ki = samplingPeriod * 0.005f;//积分增益支配率的陀螺仪偏见的衔接
++        float halfT = samplingPeriod * 0.5f;//半周期
++
++        //四元数
++        double q0 = 1;
++        double q1 = 0;
++        double q2 = 0;
++        double q3 = 0;
++
++        //按比例缩小积分误差
++        double exInt = 0;
++        double eyInt = 0;
++        double ezInt = 0;
++
++        double ax = iput[0] * 2 * 9.8 / 65536;
++        double ay = iput[1] * 2 * 9.8 / 65536;
++        double az = iput[2] * 2 * 9.8 / 65536;
++        double gx = iput[3] * 250 / 65536;//gx*250°/65536
++        double gy = iput[4] * 250 / 65536;
++        double gz = iput[5] * 250 / 65536;
++
++        //测量正常化
++        double d = ax * ax + ay * ay + az * az;
++        double norm = Math.sqrt(d);
++        ax = ax / norm;
++        ay = ay / norm;
++        az = az / norm;
++
++        //估计方向的重力
++        double vx = 2 * (q1 * q3 - q0 * q2);
++        double vy = 2 * (q0 * q1 + q2 * q3);
++        double vz = q0 * q0 - q1 * q1 - q2 * q2 + q3 * q3;
++
++        //错误的领域和方向传感器测量参考方向之间的交叉乘积的总和
++        double ex = (ay * vz - az * vy);
++        double ey = (az * vx - ax * vz);
++        double ez = (ax * vy - ay * vx);
++
++        //积分误差比例积分增益
++        exInt = exInt + ex * ki;
++        eyInt = eyInt + ey * ki;
++        ezInt = ezInt + ez * ki;
++
++        //调整后的陀螺仪测量
++        gx = gx + convergenceRate * ex + exInt;
++        gy = gy + convergenceRate * ey + eyInt;
++        gz = gz + convergenceRate * ez + ezInt;
++
++        //四元数积分和正常化
++        q0 = q0 + ((0 - q1) * gx - q2 * gy - q3 * gz) * halfT;
++        q1 = q1 + (q0 * gx + q2 * gz - q3 * gy) * halfT;
++        q2 = q2 + (q0 * gy - q1 * gz + q3 * gx) * halfT;
++        q3 = q3 + (q0 * gz + q1 * gy - q2 * gx) * halfT;
++
++        //正常化四元
++        norm = Math.sqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
++        q0 = q0 / norm;
++        q1 = q1 / norm;
++        q2 = q2 / norm;
++        q3 = q3 / norm;
++        double pitch = Math.asin(2 * q0 * q2 - 2 * q2 * q3) * 57.3;
++        double rool = Math.atan2(2 * (2 * q2 * q3 + 2 * q0 * q1), (1 - 2 * q1 * q1 - 2 * q2 * q2)) * 57.3;
++        double yaw = Math.atan2(2 * q1 * q2 + 2 * q0 * q3, 1 - 2 * q2 * q2 - 2 * q3 * q3) * 57.3;
++
++
++
++
++        return null;
++
++    }
++
++    public int[] DataCleaning(String input) {
++        int[] result = {0, 0, 0, 0, 0, 0};
++        String reg = "([a-z]{2}=[0-9]{6}, ){6}";
++        String str1 = "ax=002397, ay=065489, az=056810, gx=065261, gy=000162, gz=000059, ";
++        String str2 = "ax=002397, ";
++        Pattern pattern = Pattern.compile(reg);
++        Matcher matcher = pattern.matcher(input);
++
++        if (matcher.matches()) {
++            String[] strs = input.split(", ");
++            result[0] = Integer.parseInt(strs[0].substring(3, 9));
++            result[1] = Integer.parseInt(strs[1].substring(3, 9));
++            result[2] = Integer.parseInt(strs[2].substring(3, 9));
++            result[3] = Integer.parseInt(strs[3].substring(3, 9));
++            result[4] = Integer.parseInt(strs[4].substring(3, 9));
++            result[5] = Integer.parseInt(strs[5].substring(3, 9));
++
++        }
++        return result;
++    }
++
++}
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision )
++++ app/src/main/res/values/strings.xml	(revision )
+@@ -0,0 +1,36 @@
++<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<resources>
++    <string name="app_name">BLE Sample</string>
++    <string name="ble_not_supported">BLE is not supported</string>
++    <string name="label_data">Data:</string>
++    <string name="label_device_address">Device address:</string>
++    <string name="label_state">State:</string>
++    <string name="no_data">No data</string>
++    <string name="connected">Connected</string>
++    <string name="disconnected">Disconnected</string>
++    <string name="title_devices">BLE Device Scan</string>
++    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
++
++    <string name="unknown_device">Unknown device</string>
++    <string name="unknown_characteristic">Unknown characteristic</string>
++    <string name="unknown_service">Unknown service</string>
++
++    <!-- Menu items -->
++    <string name="menu_connect">Connect</string>
++    <string name="menu_disconnect">Disconnect</string>
++    <string name="menu_scan">Scan</string>
++    <string name="menu_stop">Stop</string>
++</resources>
+Index: app/src/main/java/com/example/bluetooth/le/Utils.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/bluetooth/le/Utils.java	(revision )
++++ app/src/main/java/com/example/bluetooth/le/Utils.java	(revision )
+@@ -0,0 +1,142 @@
++/*
++ * Copyright (C) 2013 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++package com.example.bluetooth.le;
++
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.List;
++
++import android.bluetooth.BluetoothGattCharacteristic;
++import android.bluetooth.BluetoothGattDescriptor;
++import android.bluetooth.BluetoothGattService;
++import android.text.TextUtils;
++import android.util.Log;
++
++/**
++ * This class includes a small subset of standard GATT attributes for demonstration purposes.
++ */
++public class Utils {
++
++    private static HashMap<Integer, String> serviceTypes = new HashMap();
++    static {
++        // Sample Services.
++    	serviceTypes.put(BluetoothGattService.SERVICE_TYPE_PRIMARY, "PRIMARY");
++    	serviceTypes.put(BluetoothGattService.SERVICE_TYPE_SECONDARY, "SECONDARY");
++    }
++    
++    public static String getServiceType(int type){
++    	return serviceTypes.get(type);
++    }
++    
++
++    //-------------------------------------------    
++    private static HashMap<Integer, String> charPermissions = new HashMap();
++    static {
++    	charPermissions.put(0, "UNKNOW");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_READ, "READ");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_READ_ENCRYPTED, "READ_ENCRYPTED");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_READ_ENCRYPTED_MITM, "READ_ENCRYPTED_MITM");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_WRITE, "WRITE");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_WRITE_ENCRYPTED, "WRITE_ENCRYPTED");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_WRITE_ENCRYPTED_MITM, "WRITE_ENCRYPTED_MITM");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_WRITE_SIGNED, "WRITE_SIGNED");
++    	charPermissions.put(BluetoothGattCharacteristic.PERMISSION_WRITE_SIGNED_MITM, "WRITE_SIGNED_MITM");	
++    }
++    
++    public static String getCharPermission(int permission){
++    	return getHashMapValue(charPermissions,permission);
++    }
++    //-------------------------------------------    
++    private static HashMap<Integer, String> charProperties = new HashMap();
++    static {
++    	
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_BROADCAST, "BROADCAST");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_EXTENDED_PROPS, "EXTENDED_PROPS");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_INDICATE, "INDICATE");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_NOTIFY, "NOTIFY");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_READ, "READ");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_SIGNED_WRITE, "SIGNED_WRITE");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_WRITE, "WRITE");
++    	charProperties.put(BluetoothGattCharacteristic.PROPERTY_WRITE_NO_RESPONSE, "WRITE_NO_RESPONSE");
++    }
++    
++    public static String getCharPropertie(int property){
++    	return getHashMapValue(charProperties,property);
++    }
++    
++    //--------------------------------------------------------------------------
++    private static HashMap<Integer, String> descPermissions = new HashMap();
++    static {
++    	descPermissions.put(0, "UNKNOW");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_READ, "READ");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_READ_ENCRYPTED, "READ_ENCRYPTED");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_READ_ENCRYPTED_MITM, "READ_ENCRYPTED_MITM");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_WRITE, "WRITE");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_WRITE_ENCRYPTED, "WRITE_ENCRYPTED");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_WRITE_ENCRYPTED_MITM, "WRITE_ENCRYPTED_MITM");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_WRITE_SIGNED, "WRITE_SIGNED");
++    	descPermissions.put(BluetoothGattDescriptor.PERMISSION_WRITE_SIGNED_MITM, "WRITE_SIGNED_MITM");
++    }
++    
++    public static String getDescPermission(int property){
++    	return getHashMapValue(descPermissions,property);
++    }
++    
++    
++    private static String getHashMapValue(HashMap<Integer, String> hashMap,int number){
++    	String result =hashMap.get(number);
++    	if(TextUtils.isEmpty(result)){
++    		List<Integer> numbers = getElement(number);
++    		result="";
++    		for(int i=0;i<numbers.size();i++){
++    			result+=hashMap.get(numbers.get(i))+"|";
++    		}
++    	}
++    	return result;
++    }
++
++    /**
++     * 位运算结果的反推函数10 -> 2 | 8;
++     */
++    static private List<Integer> getElement(int number){
++    	List<Integer> result = new ArrayList<Integer>();
++        for (int i = 0; i < 32; i++){
++            int b = 1 << i;
++            if ((number & b) > 0) 
++            	result.add(b);
++        }
++        
++        return result;
++    }
++    
++    
++    public static String bytesToHexString(byte[] src){  
++        StringBuilder stringBuilder = new StringBuilder("");  
++        if (src == null || src.length <= 0) {  
++            return null;  
++        }  
++        for (int i = 0; i < src.length; i++) {  
++            int v = src[i] & 0xFF;  
++            String hv = Integer.toHexString(v);  
++            if (hv.length() < 2) {  
++                stringBuilder.append(0);  
++            }  
++            stringBuilder.append(hv);  
++        }  
++        return stringBuilder.toString();  
++    }  
++}
+Index: app/src/main/res/layout/activity_show_result.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_show_result.xml	(revision )
++++ app/src/main/res/layout/activity_show_result.xml	(revision )
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    tools:context="com.example.bluetooth.le.show_result">
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:textAppearance="?android:attr/textAppearanceLarge"
++        android:text="Large Text"
++        android:id="@+id/tv_result"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentStart="true"
++        android:layout_alignParentBottom="true"
++        android:layout_alignParentEnd="true" />
++    <VideoView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:id="@+id/vv_result"
++        
++        />
++</RelativeLayout>
+Index: app/src/main/java/com/example/bluetooth/le/DeviceScanActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/bluetooth/le/DeviceScanActivity.java	(revision )
++++ app/src/main/java/com/example/bluetooth/le/DeviceScanActivity.java	(revision )
+@@ -0,0 +1,175 @@
++/*
++ * Copyright (C) 2013 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++package com.example.bluetooth.le;
++import android.app.ListActivity;
++import android.bluetooth.BluetoothAdapter;
++import android.bluetooth.BluetoothDevice;
++import android.bluetooth.BluetoothManager;
++import android.content.Context;
++import android.content.Intent;
++import android.content.pm.PackageManager;
++import android.os.Bundle;
++import android.os.Handler;
++import android.view.View;
++import android.widget.ListView;
++import android.widget.TextView;
++import android.widget.Toast;
++
++/**
++ * Activity for scanning and displaying available Bluetooth LE devices.
++ */
++public class DeviceScanActivity extends ListActivity {
++    private final static String TAG = DeviceScanActivity.class.getSimpleName();
++    private final static String UUID_KEY_DATA = "0000ffe1-0000-1000-8000-00805f9b34fb";
++
++    private LeDeviceListAdapter mLeDeviceListAdapter;
++    /**
++     * 搜索BLE终端
++     */
++    private BluetoothAdapter mBluetoothAdapter;
++    /**
++     * 读写BLE终端
++     */
++    private BluetoothLeClass mBLE;
++    private boolean mScanning;
++    private Handler mHandler;
++    private TextView tv;
++
++    // Stops scanning after 10 seconds.
++    private static final long SCAN_PERIOD = 10000;
++
++    @Override
++    public void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        getActionBar().setTitle(R.string.title_devices);
++        //tv =(TextView) this.findViewById(R.id.result);
++        mHandler = new Handler();
++        //tv.setText("12334");
++        // Use this check to determine whether BLE is supported on the device.  Then you can
++        // selectively disable BLE-related features.
++        if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
++            Toast.makeText(this, R.string.ble_not_supported, Toast.LENGTH_SHORT).show();
++            finish();
++        }
++
++        // Initializes a Bluetooth adapter.  For API level 18 and above, get a reference to
++        // BluetoothAdapter through BluetoothManager.
++        final BluetoothManager bluetoothManager =
++                (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
++        mBluetoothAdapter = bluetoothManager.getAdapter();
++
++        // Checks if Bluetooth is supported on the device.
++        if (mBluetoothAdapter == null) {
++            Toast.makeText(this, R.string.error_bluetooth_not_supported, Toast.LENGTH_SHORT).show();
++            finish();
++            return;
++        }
++        //开启蓝牙
++        mBluetoothAdapter.enable();
++
++        mBLE = new BluetoothLeClass(this);
++        if (!mBLE.initialize()) {
++            //Log.e(TAG, "Unable to initialize Bluetooth");
++            finish();
++        }
++
++    }
++
++
++    @Override
++    protected void onResume() {
++        super.onResume();
++
++        // Initializes list view adapter.
++        mLeDeviceListAdapter = new LeDeviceListAdapter(this);
++        setListAdapter(mLeDeviceListAdapter);
++        scanLeDevice(true);
++    }
++
++    @Override
++    protected void onPause() {
++        super.onPause();
++        scanLeDevice(false);
++        mLeDeviceListAdapter.clear();
++        mBLE.disconnect();
++    }
++
++    @Override
++    protected void onStop() {
++        super.onStop();
++        mBLE.close();
++    }
++
++    @Override
++    protected void onListItemClick(ListView l, View v, int position, long id) {
++        final BluetoothDevice device = mLeDeviceListAdapter.getDevice(position);
++        if (device == null) return;
++        if (mScanning) {
++            mBluetoothAdapter.stopLeScan(mLeScanCallback);
++            mScanning = false;
++        }
++
++        //mBLE.connect(device.getAddress());
++
++        final Intent intent = new Intent(this, show_result.class);
++        intent.putExtra(show_result.EXTRAS_DEVICE_NAME, device.getName());
++        intent.putExtra(show_result.EXTRAS_DEVICE_ADDRESS, device.getAddress());
++        startActivity(intent);
++
++    }
++
++    private void scanLeDevice(final boolean enable) {
++        if (enable) {
++            // Stops scanning after a pre-defined scan period.
++            mHandler.postDelayed(new Runnable() {
++                @Override
++                public void run() {
++                    mScanning = false;
++                    mBluetoothAdapter.stopLeScan(mLeScanCallback);
++                    invalidateOptionsMenu();
++                }
++            }, SCAN_PERIOD);
++
++            mScanning = true;
++            mBluetoothAdapter.startLeScan(mLeScanCallback);
++        } else {
++            mScanning = false;
++            mBluetoothAdapter.stopLeScan(mLeScanCallback);
++        }
++        invalidateOptionsMenu();
++    }
++
++
++
++    // Device scan callback.
++    private BluetoothAdapter.LeScanCallback mLeScanCallback =
++            new BluetoothAdapter.LeScanCallback() {
++
++                @Override
++                public void onLeScan(final BluetoothDevice device, int rssi, byte[] scanRecord) {
++                    runOnUiThread(new Runnable() {
++                        @Override
++                        public void run() {
++                            mLeDeviceListAdapter.addDevice(device);
++                            mLeDeviceListAdapter.notifyDataSetChanged();
++                        }
++                    });
++                }
++            };
++
++
++}
+\ No newline at end of file
+Index: app/build/generated/source/buildConfig/debug/com/example/bluetooth/le/BuildConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/source/buildConfig/debug/com/example/bluetooth/le/BuildConfig.java	(revision )
++++ app/build/generated/source/buildConfig/debug/com/example/bluetooth/le/BuildConfig.java	(revision )
+@@ -0,0 +1,13 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.example.bluetooth.le;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String APPLICATION_ID = "com.example.bluetooth.le";
++  public static final String BUILD_TYPE = "debug";
++  public static final String FLAVOR = "";
++  public static final int VERSION_CODE = 1;
++  public static final String VERSION_NAME = "1.0";
++}
+Index: app/src/main/res/menu/main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/main.xml	(revision )
++++ app/src/main/res/menu/main.xml	(revision )
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<menu xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:id="@+id/menu_refresh"
++          android:checkable="false"
++          android:orderInCategory="1"
++          android:showAsAction="ifRoom"/>
++    <item android:id="@+id/menu_scan"
++          android:title="@string/menu_scan"
++          android:orderInCategory="100"
++          android:showAsAction="ifRoom|withText"/>
++    <item android:id="@+id/menu_stop"
++          android:title="@string/menu_stop"
++          android:orderInCategory="101"
++          android:showAsAction="ifRoom|withText"/>
++</menu>
+Index: app/src/main/res/layout/listitem_device.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/listitem_device.xml	(revision )
++++ app/src/main/res/layout/listitem_device.xml	(revision )
+@@ -0,0 +1,36 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++              android:orientation="vertical"
++              android:layout_width="match_parent"
++              android:layout_height="wrap_content">
++    <TextView android:id="@+id/device_name"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:textSize="24dp"/>
++    <TextView android:id="@+id/device_address"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:textSize="12dp"/>
++
++    <!--<TextView-->
++        <!--android:layout_width="match_parent"-->
++        <!--android:layout_height="331dp"-->
++        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
++        <!--android:text="Large Text"-->
++        <!--android:id="@+id/result" />-->
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/values-w820dp/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-w820dp/dimens.xml	(revision )
++++ app/src/main/res/values-w820dp/dimens.xml	(revision )
+@@ -0,0 +1,6 @@
++<resources>
++    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
++         (such as screen margins) for screens with more than 820dp of available width. This
++         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
++    <dimen name="activity_horizontal_margin">64dp</dimen>
++</resources>
+Index: app/src/main/java/com/example/bluetooth/le/BluetoothLeClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/bluetooth/le/BluetoothLeClass.java	(revision )
++++ app/src/main/java/com/example/bluetooth/le/BluetoothLeClass.java	(revision )
+@@ -0,0 +1,276 @@
++/*
++ * Copyright (C) 2013 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++package com.example.bluetooth.le;
++
++import android.bluetooth.BluetoothAdapter;
++import android.bluetooth.BluetoothDevice;
++import android.bluetooth.BluetoothGatt;
++import android.bluetooth.BluetoothGattCallback;
++import android.bluetooth.BluetoothGattCharacteristic;
++import android.bluetooth.BluetoothGattService;
++import android.bluetooth.BluetoothManager;
++import android.bluetooth.BluetoothProfile;
++import android.content.Context;
++import android.util.Log;
++
++import java.util.List;
++
++/**
++ * Service for managing connection and data communication with a GATT server hosted on a
++ * given Bluetooth LE device.
++ */
++public class BluetoothLeClass {
++    private final static String TAG = BluetoothLeClass.class.getSimpleName();
++
++    private BluetoothManager mBluetoothManager;
++    private BluetoothAdapter mBluetoothAdapter;
++    private String mBluetoothDeviceAddress;
++    private BluetoothGatt mBluetoothGatt;
++
++    public interface OnConnectListener {
++        public void onConnect(BluetoothGatt gatt);
++    }
++
++    public interface OnDisconnectListener {
++        public void onDisconnect(BluetoothGatt gatt);
++    }
++
++    public interface OnServiceDiscoverListener {
++        public void onServiceDiscover(BluetoothGatt gatt);
++    }
++
++    public interface OnDataAvailableListener {
++        public void onCharacteristicRead(BluetoothGatt gatt,
++                                         BluetoothGattCharacteristic characteristic,
++                                         int status);
++
++        public void onCharacteristicWrite(BluetoothGatt gatt,
++                                          BluetoothGattCharacteristic characteristic);
++    }
++
++    private OnConnectListener mOnConnectListener;
++    private OnDisconnectListener mOnDisconnectListener;
++    private OnServiceDiscoverListener mOnServiceDiscoverListener;
++    private OnDataAvailableListener mOnDataAvailableListener;
++    private Context mContext;
++
++    public void setOnConnectListener(OnConnectListener l) {
++        mOnConnectListener = l;
++    }
++
++    public void setOnDisconnectListener(OnDisconnectListener l) {
++        mOnDisconnectListener = l;
++    }
++
++    public void setOnServiceDiscoverListener(OnServiceDiscoverListener l) {
++        mOnServiceDiscoverListener = l;
++    }
++
++    public void setOnDataAvailableListener(OnDataAvailableListener l) {
++        mOnDataAvailableListener = l;
++    }
++
++    public BluetoothLeClass(Context c) {
++        mContext = c;
++    }
++
++    // Implements callback methods for GATT events that the app cares about.  For example,
++    // connection change and services discovered.
++    private final BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {
++        @Override
++        public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
++            if (newState == BluetoothProfile.STATE_CONNECTED) {
++                if (mOnConnectListener != null)
++                    mOnConnectListener.onConnect(gatt);
++                Log.i(TAG, "Connected to GATT server.");
++                // Attempts to discover services after successful connection.
++                Log.i(TAG, "Attempting to start service discovery:" +
++                        mBluetoothGatt.discoverServices());
++
++            } else if (newState == BluetoothProfile.STATE_DISCONNECTED) {
++                if (mOnDisconnectListener != null)
++                    mOnDisconnectListener.onDisconnect(gatt);
++                Log.i(TAG, "Disconnected from GATT server.");
++            }
++        }
++
++        @Override
++        public void onServicesDiscovered(BluetoothGatt gatt, int status) {
++            if (status == BluetoothGatt.GATT_SUCCESS && mOnServiceDiscoverListener != null) {
++                mOnServiceDiscoverListener.onServiceDiscover(gatt);
++            } else {
++                Log.w(TAG, "onServicesDiscovered received: " + status);
++            }
++        }
++
++        @Override
++        public void onCharacteristicRead(BluetoothGatt gatt,
++                                         BluetoothGattCharacteristic characteristic,
++                                         int status) {
++            if (mOnDataAvailableListener != null)
++                mOnDataAvailableListener.onCharacteristicRead(gatt, characteristic, status);
++        }
++
++        @Override
++        public void onCharacteristicChanged(BluetoothGatt gatt,
++                                            BluetoothGattCharacteristic characteristic) {
++            if (mOnDataAvailableListener != null) {
++                mOnDataAvailableListener.onCharacteristicWrite(gatt, characteristic);
++                String aa = characteristic.getStringValue(0);
++
++                //String ss = Utils.bytesToHexString(characteristic.getValue());
++                //Log.e(TAG,"ssssssssssss:"+aa);
++            }
++        }
++    };
++
++    /**
++     * Initializes a reference to the local Bluetooth adapter.
++     *
++     * @return Return true if the initialization is successful.
++     */
++    public boolean initialize() {
++        // For API level 18 and above, get a reference to BluetoothAdapter through
++        // BluetoothManager.
++        if (mBluetoothManager == null) {
++            mBluetoothManager = (BluetoothManager) mContext.getSystemService(Context.BLUETOOTH_SERVICE);
++            if (mBluetoothManager == null) {
++                Log.e(TAG, "Unable to initialize BluetoothManager.");
++                return false;
++            }
++        }
++
++        mBluetoothAdapter = mBluetoothManager.getAdapter();
++        if (mBluetoothAdapter == null) {
++            Log.e(TAG, "Unable to obtain a BluetoothAdapter.");
++            return false;
++        }
++
++        return true;
++    }
++
++    /**
++     * Connects to the GATT server hosted on the Bluetooth LE device.
++     *
++     * @param address The device address of the destination device.
++     * @return Return true if the connection is initiated successfully. The connection result
++     * is reported asynchronously through the
++     * {@code BluetoothGattCallback#onConnectionStateChange(android.bluetooth.BluetoothGatt, int, int)}
++     * callback.
++     */
++    public boolean connect(final String address) {
++        if (mBluetoothAdapter == null || address == null) {
++            Log.w(TAG, "BluetoothAdapter not initialized or unspecified address.");
++            return false;
++        }
++
++        // Previously connected device.  Try to reconnect.
++        if (mBluetoothDeviceAddress != null && address.equals(mBluetoothDeviceAddress)
++                && mBluetoothGatt != null) {
++            Log.d(TAG, "Trying to use an existing mBluetoothGatt for connection.");
++            if (mBluetoothGatt.connect()) {
++                return true;
++            } else {
++                return false;
++            }
++        }
++
++        final BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
++        if (device == null) {
++            Log.w(TAG, "Device not found.  Unable to connect.");
++            return false;
++        }
++        // We want to directly connect to the device, so we are setting the autoConnect
++        // parameter to false.
++        mBluetoothGatt = device.connectGatt(mContext, false, mGattCallback);
++        Log.d(TAG, "Trying to create a new connection.");
++        mBluetoothDeviceAddress = address;
++        return true;
++    }
++
++    /**
++     * Disconnects an existing connection or cancel a pending connection. The disconnection result
++     * is reported asynchronously through the
++     * {@code BluetoothGattCallback#onConnectionStateChange(android.bluetooth.BluetoothGatt, int, int)}
++     * callback.
++     */
++    public void disconnect() {
++        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
++            Log.w(TAG, "BluetoothAdapter not initialized");
++            return;
++        }
++        mBluetoothGatt.disconnect();
++    }
++
++    /**
++     * After using a given BLE device, the app must call this method to ensure resources are
++     * released properly.
++     */
++    public void close() {
++        if (mBluetoothGatt == null) {
++            return;
++        }
++        mBluetoothGatt.close();
++        mBluetoothGatt = null;
++    }
++
++    /**
++     * Request a read on a given {@code BluetoothGattCharacteristic}. The read result is reported
++     * asynchronously through the {@code BluetoothGattCallback#onCharacteristicRead(android.bluetooth.BluetoothGatt, android.bluetooth.BluetoothGattCharacteristic, int)}
++     * callback.
++     *
++     * @param characteristic The characteristic to read from.
++     */
++    public void readCharacteristic(BluetoothGattCharacteristic characteristic) {
++        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
++            Log.w(TAG, "BluetoothAdapter not initialized");
++            return;
++        }
++        mBluetoothGatt.readCharacteristic(characteristic);
++    }
++
++    /**
++     * Enables or disables notification on a give characteristic.
++     *
++     * @param characteristic Characteristic to act on.
++     * @param enabled        If true, enable notification.  False otherwise.
++     */
++    public void setCharacteristicNotification(BluetoothGattCharacteristic characteristic,
++                                              boolean enabled) {
++        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
++            Log.w(TAG, "BluetoothAdapter not initialized");
++            return;
++        }
++        mBluetoothGatt.setCharacteristicNotification(characteristic, enabled);
++    }
++
++    public void writeCharacteristic(BluetoothGattCharacteristic characteristic) {
++        mBluetoothGatt.writeCharacteristic(characteristic);
++    }
++
++    /**
++     * Retrieves a list of supported GATT services on the connected device. This should be
++     * invoked only after {@code BluetoothGatt#discoverServices()} completes successfully.
++     *
++     * @return A {@code List} of supported services.
++     */
++    public List<BluetoothGattService> getSupportedGattServices() {
++        if (mBluetoothGatt == null) return null;
++
++        return mBluetoothGatt.getServices();
++    }
++}
+Index: app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml	(revision )
++++ app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml	(revision )
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.example.bluetooth.le.test">
++
++    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="18" />
++
++    <application>
++        <uses-library android:name="android.test.runner" />
++    </application>
++
++    <instrumentation android:name="android.test.InstrumentationTestRunner"
++                     android:targetPackage="com.example.bluetooth.le"
++                     android:handleProfiling="false"
++                     android:functionalTest="false"
++                     android:label="Tests for com.example.bluetooth.le"/>
++</manifest>
+Index: app/src/main/java/com/example/bluetooth/le/show_result.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/bluetooth/le/show_result.java	(revision )
++++ app/src/main/java/com/example/bluetooth/le/show_result.java	(revision )
+@@ -0,0 +1,245 @@
++package com.example.bluetooth.le;
++/**
++ * Created by P_Gao on 2015/12/9.
++ */
++
++import android.app.Activity;
++import android.bluetooth.BluetoothGatt;
++import android.bluetooth.BluetoothGattCharacteristic;
++import android.bluetooth.BluetoothGattDescriptor;
++import android.bluetooth.BluetoothGattService;
++import android.content.Intent;
++import android.os.Bundle;
++import android.os.Handler;
++import android.text.method.ScrollingMovementMethod;
++import android.util.Log;
++import android.widget.MediaController;
++import android.widget.TextView;
++import android.widget.VideoView;
++
++import java.util.List;
++
++import pl.droidsonroids.gif.GifDrawable;
++
++public class show_result extends Activity {
++    public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
++    public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
++    private final static String UUID_KEY_DATA = "0000ffe1-0000-1000-8000-00805f9b34fb";
++    private final static String TAG = show_result.class.getSimpleName();
++    private BluetoothLeClass mBLE;
++    private boolean mScanning;
++    private Handler mHandler;
++    private String mDeviceName;//设备名称
++    private String mDeviceAddress;//设备地址
++    private TextView tvResult ;
++    private String showResult;
++    private VideoView vvResult;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++//        GifImageButton gib = new GifImageButton(this);
++//        setContentView( gib );
++//        gib.setImageResource( R.drawable.hook_right);
++//        final MediaController mc = new MediaController( this );
++//        mc.setMediaPlayer( ( GifDrawable ) gib.getDrawable() );
++//        mc.setAnchorView( gib );
++//        gib.setOnClickListener(new View.OnClickListener() {
++//            @Override
++//            public void onClick(View v) {
++//                mc.show();
++//            }
++//        });
++        setContentView(R.layout.activity_show_result);
++        mHandler = new Handler();
++        tvResult = (TextView)this.findViewById(R.id.tv_result);
++        vvResult = (VideoView)this.findViewById(R.id.vv_result);
++        tvResult.setMovementMethod(ScrollingMovementMethod.getInstance()) ;
++        mBLE = new BluetoothLeClass(this);
++        final Intent intent = getIntent();
++        mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
++        mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
++
++        mBLE = new BluetoothLeClass(this);
++        mBLE = new BluetoothLeClass(this);
++        if (!mBLE.initialize()) {
++            //Log.e(TAG, "Unable to initialize Bluetooth");
++            finish();
++        }
++        //发现BLE终端的Service时回调
++        mBLE.setOnServiceDiscoverListener(mOnServiceDiscover);
++        mBLE.setOnDataAvailableListener(mOnDataAvailable);
++        mBLE.connect(mDeviceAddress);
++
++
++        vvResult.setVideoPath("/sdcard/hook_right.avi");
++        vvResult.setMediaController(new MediaController(show_result.this));
++        vvResult.requestFocus();
++        vvResult.start();
++        try {
++            //asset file
++            GifDrawable gifFromAssets = new GifDrawable( getAssets(), "anim.gif" );
++
++
++
++        }catch (Exception e){
++
++        }
++
++    }
++
++    /**
++     * 收到BLE终端数据交互的事件
++     */
++    private BluetoothLeClass.OnDataAvailableListener mOnDataAvailable = new BluetoothLeClass.OnDataAvailableListener() {
++
++        /**
++         * BLE终端数据被读的事件
++         */
++        @Override
++        public void onCharacteristicRead(BluetoothGatt gatt,
++                                         BluetoothGattCharacteristic characteristic, int status) {
++            if (status == BluetoothGatt.GATT_SUCCESS)
++                Log.e(TAG, "onCharRead " + gatt.getDevice().getName()
++                        + " read "
++                        + characteristic.getUuid().toString()
++                        + " -> "
++                        + Utils.bytesToHexString(characteristic.getValue()));
++        }
++
++        String result = "";
++        int count = 0;
++        String resultCalc = "";
++        /**
++         * 收到BLE终端写入数据回调
++         */
++        @Override
++        public void onCharacteristicWrite(BluetoothGatt gatt,
++                                          BluetoothGattCharacteristic characteristic) {
++
++
++            String ss = characteristic.getStringValue(0);
++            String ss2 = "";
++            result = result + ss;
++            resultCalc = resultCalc+ss;
++            if (ss.contains("\r\n")) {
++                result = result.toString().replace("\r\n", ", ");
++                resultCalc = resultCalc.toString().replace("\r\n", ", ");
++                CalculateData cd = new CalculateData();
++                int[] ii =  cd.DataCleaning(result);
++                resultCalc = "";
++                Log.e(TAG, "address:" + gatt.getDevice().getAddress() + "result:" + count + ":"+result);
++                Log.e(TAG,""+ii[0]+","+ii[1]+","+ii[2]+","+ii[3]+","+ii[4]+","+ii[5]);
++                showResult = tvResult.getText().toString()+ "address:" + gatt.getDevice().getAddress() + "result:" + count + ":"+result;
++                result = "";
++                count++;
++
++
++
++
++            }
++            //Log.e(TAG,"result:"+result);
++            // mLeDeviceListAdapter.writeResult(ss);
++//            Log.e(TAG, "onCharWrite " + gatt.getDevice().getName()
++//                    + " write "
++//                    + characteristic.getUuid().toString()
++//                    + " -> "
++//                    +ss);
++        }
++    };
++    /**
++     * 搜索到BLE终端服务的事件
++     */
++    private BluetoothLeClass.OnServiceDiscoverListener mOnServiceDiscover = new BluetoothLeClass.OnServiceDiscoverListener() {
++
++        @Override
++        public void onServiceDiscover(BluetoothGatt gatt) {
++            displayGattServices(mBLE.getSupportedGattServices());
++        }
++
++    };
++
++    private void displayGattServices(List<BluetoothGattService> gattServices) {
++        if (gattServices == null) return;
++
++        for (BluetoothGattService gattService : gattServices) {
++            //-----Service的字段信息-----//
++            int type = gattService.getType();
++//            Log.e(TAG,"-->service type:"+Utils.getServiceType(type));
++//            Log.e(TAG,"-->includedServices size:"+gattService.getIncludedServices().size());
++//            Log.e(TAG,"-->service uuid:"+gattService.getUuid());
++
++            //-----Characteristics的字段信息-----//
++            List<BluetoothGattCharacteristic> gattCharacteristics = gattService.getCharacteristics();
++            for (final BluetoothGattCharacteristic gattCharacteristic : gattCharacteristics) {
++                //Log.e(TAG,"---->char uuid:"+gattCharacteristic.getUuid());
++
++                int permission = gattCharacteristic.getPermissions();
++                //Log.e(TAG,"---->char permission:"+Utils.getCharPermission(permission));
++
++                int property = gattCharacteristic.getProperties();
++                //Log.e(TAG,"---->char property:"+Utils.getCharPropertie(property));
++
++                byte[] data = gattCharacteristic.getValue();
++                if (data != null && data.length > 0) {
++                    //Log.e(TAG,"---->char value:"+new String(data));
++                }
++
++                //UUID_KEY_DATA是可以跟蓝牙模块串口通信的Characteristic
++                if (gattCharacteristic.getUuid().toString().equals(UUID_KEY_DATA)) {
++                    //测试读取当前Characteristic数据，会触发mOnDataAvailable.onCharacteristicRead()
++//                    mHandler.postDelayed(new Runnable() {
++//                        @Override
++//                        public void run() {
++//                            mBLE.readCharacteristic(gattCharacteristic);
++//                            //接受Characteristic被写的通知,收到蓝牙模块的数据后会触发mOnDataAvailable.onCharacteristicWrite()
++//                            mBLE.setCharacteristicNotification(gattCharacteristic, true);
++//                            //设置数据内容
++//                            gattCharacteristic.setValue("1");
++//                            //往蓝牙模块写入数据
++//                            mBLE.writeCharacteristic(gattCharacteristic);
++//
++//                        }
++//                    }, 500);
++
++
++                    Runnable myRunnable = new Runnable() {
++                        public void run() {
++                            mHandler.postDelayed(this, 20);
++                            mBLE.setCharacteristicNotification(gattCharacteristic, true);
++                            //设置数据内容
++                            gattCharacteristic.setValue("0");
++                            //往蓝牙模块写入数据
++                            mBLE.writeCharacteristic(gattCharacteristic);
++                            //tvResult.setText(showResult);
++
++                        }
++                    };
++                    mHandler.post(myRunnable);
++
++                    //接受Characteristic被写的通知,收到蓝牙模块的数据后会触发mOnDataAvailable.onCharacteristicWrite()
++                    mBLE.setCharacteristicNotification(gattCharacteristic, true);
++                    //设置数据内容
++                    gattCharacteristic.setValue("0");
++                    //往蓝牙模块写入数据
++                    mBLE.writeCharacteristic(gattCharacteristic);
++                }
++
++                //-----Descriptors的字段信息-----//
++                List<BluetoothGattDescriptor> gattDescriptors = gattCharacteristic.getDescriptors();
++                for (BluetoothGattDescriptor gattDescriptor : gattDescriptors) {
++                    //Log.e(TAG, "-------->desc uuid:" + gattDescriptor.getUuid());
++                    int descPermission = gattDescriptor.getPermissions();
++                    //Log.e(TAG,"-------->desc permission:"+ Utils.getDescPermission(descPermission));
++
++                    byte[] desData = gattDescriptor.getValue();
++                    if (desData != null && desData.length > 0) {
++                        //Log.e(TAG, "-------->desc value:"+ new String(desData));
++                    }
++                }
++            }
++        }//
++
++    }
++
++}
+Index: app/src/main/res/layout/gatt_services_characteristics.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/gatt_services_characteristics.xml	(revision )
++++ app/src/main/res/layout/gatt_services_characteristics.xml	(revision )
+@@ -0,0 +1,71 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++        android:orientation="vertical"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_margin="10dp">
++    <LinearLayout android:orientation="horizontal"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:layout_margin="10dp">
++        <TextView android:layout_width="wrap_content"
++                  android:layout_height="wrap_content"
++                  android:text="@string/label_device_address"
++                  android:textSize="18sp"/>
++        <Space android:layout_width="5dp"
++               android:layout_height="wrap_content"/>
++        <TextView android:id="@+id/device_address"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:textSize="18sp"/>
++    </LinearLayout>
++    <LinearLayout android:orientation="horizontal"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:layout_margin="10dp">
++        <TextView android:layout_width="wrap_content"
++                  android:layout_height="wrap_content"
++                  android:text="@string/label_state"
++                  android:textSize="18sp"/>
++        <Space android:layout_width="5dp"
++               android:layout_height="wrap_content"/>
++        <TextView android:id="@+id/connection_state"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:text="@string/disconnected"
++                  android:textSize="18sp"/>
++    </LinearLayout>
++    <LinearLayout android:orientation="horizontal"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:layout_margin="10dp">
++        <TextView android:layout_width="wrap_content"
++                  android:layout_height="wrap_content"
++                  android:text="@string/label_data"
++                  android:textSize="18sp"/>
++        <Space android:layout_width="5dp"
++               android:layout_height="wrap_content"/>
++        <TextView android:id="@+id/data_value"
++                  android:layout_width="match_parent"
++                  android:layout_height="wrap_content"
++                  android:text="@string/no_data"
++                  android:textSize="18sp"/>
++    </LinearLayout>
++    <ExpandableListView android:id="@+id/gatt_services_list"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"/>
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/actionbar_indeterminate_progress.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/actionbar_indeterminate_progress.xml	(revision )
++++ app/src/main/res/layout/actionbar_indeterminate_progress.xml	(revision )
+@@ -0,0 +1,31 @@
++<!--
++  Copyright 2013 Google Inc.
++
++  Licensed under the Apache License, Version 2.0 (the "License");
++  you may not use this file except in compliance with the License.
++  You may obtain a copy of the License at
++
++       http://www.apache.org/licenses/LICENSE-2.0
++
++  Unless required by applicable law or agreed to in writing, software
++  distributed under the License is distributed on an "AS IS" BASIS,
++  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++  See the License for the specific language governing permissions and
++  limitations under the License.
++  -->
++<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
++             android:layout_height="wrap_content"
++             android:layout_width="56dp"
++             android:minWidth="56dp">
++    <ProgressBar android:layout_width="32dp"
++                 android:layout_height="32dp"
++                 android:layout_gravity="center"/>
++
++    <TextView
++        android:layout_width="56dp"
++        android:layout_height="234dp"
++        android:textAppearance="?android:attr/textAppearanceMedium"
++        android:text="1 Text"
++        android:id="@+id/textView"
++        android:layout_gravity="right|bottom" />
++</FrameLayout>
+Index: app/build/generated/source/buildConfig/androidTest/debug/com/example/bluetooth/le/test/BuildConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/source/buildConfig/androidTest/debug/com/example/bluetooth/le/test/BuildConfig.java	(revision )
++++ app/build/generated/source/buildConfig/androidTest/debug/com/example/bluetooth/le/test/BuildConfig.java	(revision )
+@@ -0,0 +1,13 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.example.bluetooth.le.test;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String APPLICATION_ID = "com.example.bluetooth.le.test";
++  public static final String BUILD_TYPE = "debug";
++  public static final String FLAVOR = "";
++  public static final int VERSION_CODE = -1;
++  public static final String VERSION_NAME = "";
++}
+Index: app/src/main/res/menu/gatt_services.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/gatt_services.xml	(revision )
++++ app/src/main/res/menu/gatt_services.xml	(revision )
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2013 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<menu xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:id="@+id/menu_refresh"
++          android:checkable="false"
++          android:orderInCategory="1"
++          android:showAsAction="ifRoom"/>
++    <item android:id="@+id/menu_connect"
++          android:title="@string/menu_connect"
++          android:orderInCategory="100"
++          android:showAsAction="ifRoom|withText"/>
++    <item android:id="@+id/menu_disconnect"
++          android:title="@string/menu_disconnect"
++          android:orderInCategory="101"
++          android:showAsAction="ifRoom|withText"/>
++</menu>

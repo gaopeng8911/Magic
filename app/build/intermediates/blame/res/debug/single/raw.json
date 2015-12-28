@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ready.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\ready.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\state.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\state.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\left_straight.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\left_straight.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\right_swing.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\right_swing.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\right_hook.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\right_hook.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\move_right.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\move_right.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\backwards.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\backwards.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\move_left.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\move_left.mp4"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\forward.mp4",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\raw\\forward.mp4"
+    }
+]

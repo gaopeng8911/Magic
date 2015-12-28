@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\menu\\gatt_services.xml"
+    }
+]

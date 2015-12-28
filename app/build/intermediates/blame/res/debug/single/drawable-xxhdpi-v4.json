@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\hook_right.gif",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\hook_right.gif"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon.png",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\initial_state.gif",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\initial_state.gif"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\straight_left.gif",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\straight_left.gif"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\aa.gif",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\aa.gif"
+    },
+    {
+        "merged": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\P_Gao\\AndroidStudioProjects\\gaopeng8911.MagicWristband\\Magic\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]
